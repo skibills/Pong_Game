@@ -151,7 +151,7 @@ def run_game():
 
 
 #Wins
-        if player1score >= 1: ##
+        if player1score >= 5: ##Score Limit
             ball_y_direction = 0
             ball_x_direction = 0
             restart = window.textinput("Game Over.", "Do you want to play again ? (Y/N)")
@@ -161,7 +161,7 @@ def run_game():
             else:
                 break
         
-        if player2score >= 1: ##
+        if player2score >= 5: ##Score Limit
             ball_y_direction = 0
             ball_x_direction = 0
             restart = window.textinput("Game Over.", "Do you want to play again ? (Y/N)")
